@@ -31,7 +31,7 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @Cinema_Haunter 😉!"
 HELP_TEXT = """
 🎧 --**Need Help ?**--
 (Join @SafoTheBot For Support)
@@ -63,7 +63,7 @@ HELP_TEXT = """
 \u2022 `/update` - update the bot with upstream repo
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@Cinema_Haunter| @vineshhh_bot** 👑
 """
 
 
