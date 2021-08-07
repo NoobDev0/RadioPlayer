@@ -34,7 +34,7 @@ playlist=Config.playlist
 HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @Cinema_Haunter 😉!"
 HELP_TEXT = """
 🎧 --**Need Help ?**--
-(Join @SafoTheBot For Support)
+(Join Cinema_Haunter For Support)
 
 🏷️ --**Common Commands**-- :
 
@@ -197,7 +197,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
 
 
-@Client.on_message(filters.command(["start", f"start@{USERNAME}"]))
+@Client.on_message(filters.command(["radiostart", f"start@{USERNAME}"]))
 async def start(client, message):
     buttons = [
             [
@@ -219,7 +219,7 @@ async def start(client, message):
 
 
 
-@Client.on_message(filters.command(["help", f"help@{USERNAME}"]))
+@Client.on_message(filters.command(["radiohelp", f"help@{USERNAME}"]))
 async def help(client, message):
     buttons = [
             [
